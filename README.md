@@ -22,7 +22,8 @@ pod 'ContentLoader'
 
 ## Author
 
-alberdev, albertokr@gmail.com
+Alberto Aznar, info@alberdev.com
+Based on [Skeleton View](https://github.com/Juanpe/SkeletonView) by Juanpe Catalán.
 
 ## License
 

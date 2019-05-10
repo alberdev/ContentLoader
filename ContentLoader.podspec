@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '10.0'
   s.name              = 'ContentLoader'
-  s.summary           = 'ContentLoader'
-  s.description       = 'ContentLoader'
+  s.summary           = 'Create an animated placeholder loading to your content like Slack, Instagram, or even Facebook.'
+  s.description       = 'Create an animated placeholder loading to your content like Slack, Instagram, or even Facebook.'
   s.version           = '1.0.0'
   
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
