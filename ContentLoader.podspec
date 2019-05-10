@@ -7,36 +7,45 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ContentLoader'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ContentLoader.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/alberdev/ContentLoader'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'alberdev' => 'albertokr@gmail.com' }
-  s.source           = { :git => 'https://github.com/alberdev/ContentLoader.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ContentLoader/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ContentLoader' => ['ContentLoader/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.platform = :ios
+  s.ios.deployment_target = '10.0'
+  s.name              = 'ContentLoader'
+  s.summary           = 'ContentLoader'
+  s.description       = 'ContentLoader'
+  s.version           = '1.0.0'
+  
+  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.license           = { :type => 'MIT', :file => 'LICENSE' }
+  
+  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.author            = { 'Alberto Aznar' => 'info@alberdev.com' }
+  s.homepage          = 'https://github.com/alberdev/ContentLoader'
+  s.social_media_url  = 'https://twitter.com/alberdev'
+  
+  # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.source            = { :git => 'https://github.com/alberdev/ContentLoader.git', :tag => s.version.to_s }
+  
+  # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.framework         = 'UIKit'
+  
+  # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.source_files      = 'ContentLoader/**/*'
+  
+  # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  # s.resources         = 'ContentLoader/Resources/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}'
+  
+  # ――― Swift Version ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  
+  s.swift_version     = '5.0'
+  
+  
 end

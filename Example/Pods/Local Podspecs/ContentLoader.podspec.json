@@ -1,0 +1,25 @@
+{
+  "name": "ContentLoader",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "summary": "ContentLoader",
+  "description": "ContentLoader",
+  "version": "1.0.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Alberto Aznar": "info@alberdev.com"
+  },
+  "homepage": "https://github.com/alberdev/ContentLoader",
+  "social_media_url": "https://twitter.com/alberdev",
+  "source": {
+    "git": "https://github.com/alberdev/ContentLoader.git",
+    "tag": "1.0.0"
+  },
+  "frameworks": "UIKit",
+  "source_files": "ContentLoader/**/*",
+  "swift_versions": "5.0"
+}

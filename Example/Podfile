@@ -3,9 +3,5 @@ use_frameworks!
 target 'ContentLoader_Example' do
   pod 'ContentLoader', :path => '../'
 
-  target 'ContentLoader_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end

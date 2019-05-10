@@ -1,0 +1,6 @@
+framework module ContentLoader {
+  umbrella header "ContentLoader-umbrella.h"
+
+  export *
+  module * { export * }
+}
