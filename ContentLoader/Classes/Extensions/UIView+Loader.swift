@@ -64,7 +64,7 @@ public extension UIView {
                 view.cornerRadius = loadingFormat.radius
                 view.clipsToBounds = view.cornerRadius != 0
                 
-                if loading { view.layer.playAnimation(format?.animation) }
+                if loading { view.layer.playAnimation(loadingFormat.animation) }
                 else { view.layer.stopAnimation() }
             }
         }
