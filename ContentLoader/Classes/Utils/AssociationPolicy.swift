@@ -1,14 +1,12 @@
 //
-//  AssociationPolicy.swift
-//  FashTime
-//
-//  Created by Alberto Aznar de los Ríos on 08/05/2019.
-//  Copyright © 2019 FashTime Ltd. All rights reserved.
+//  ContentLoader
+//  Copyright (c) 2019 alberdev. All rights reserved.
+//  Partially copy/pasted from https://github.com/jameslintaylor/AssociatedObjects/blob/master/AssociatedObjects/AssociatedObjects.swift
 //
 
 import Foundation
 
-//Partially copy/pasted from https://github.com/jameslintaylor/AssociatedObjects/blob/master/AssociatedObjects/AssociatedObjects.swift
+
 enum AssociationPolicy: UInt {
     // raw values map to objc_AssociationPolicy's raw values
     case assign = 0

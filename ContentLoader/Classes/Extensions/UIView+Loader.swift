@@ -1,7 +1,6 @@
 //
 //  ContentLoader
 //  Copyright (c) 2019 alberdev. All rights reserved.
-//  Based on SkeletonView https://github.com/Juanpe/SkeletonView
 //
 
 import UIKit
@@ -35,7 +34,7 @@ public extension UIView {
             cornerRadius = cornerRadius == 0 ? loadingFormat.radius : cornerRadius
             clipsToBounds = cornerRadius != 0
             
-            if loading { layer.playAnimation(format?.animation) }
+            if loading { layer.playAnimation(loadingFormat.animation) }
             else { layer.stopAnimation() }
         }
         
@@ -48,7 +47,7 @@ public extension UIView {
                 
                 if loading {
                     view.originalImage = view.image
-                    view.layer.playAnimation(format?.animation)
+                    view.layer.playAnimation(loadingFormat.animation)
                 }
                 else {
                     view.image = view.originalImage

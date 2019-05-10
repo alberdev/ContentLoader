@@ -1,7 +1,6 @@
 //
 //  ContentLoader
 //  Copyright (c) 2019 alberdev. All rights reserved.
-//  Based on SkeletonView https://github.com/Juanpe/SkeletonView
 //
 
 import UIKit

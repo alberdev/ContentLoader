@@ -42,7 +42,6 @@ public extension CALayer {
     func playAnimation(_ animation: ContentLoaderAnimation?) {
         guard let animation = animation else { return }
         add(animation.layerAnimation(self), forKey: ContentLoaderAnimationKey)
-        print("animation added")
     }
     
     func stopAnimation() {
