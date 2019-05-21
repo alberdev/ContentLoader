@@ -52,19 +52,19 @@
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4820146CE8F4177C3E6546AB25F20460 /* UIColor+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+Tools.swift"; sourceTree = "<group>"; };
 		5E3D0379ECBCBFC75F776CFADD038D80 /* Pods-ContentLoader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentLoader_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6D5563D1F5CBF4446F08081518D4E3BA /* Pods_ContentLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ContentLoader_Example.framework; path = "Pods-ContentLoader_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D5563D1F5CBF4446F08081518D4E3BA /* Pods_ContentLoader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContentLoader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E6DED89928C8F809186B28D43C651A /* Pods-ContentLoader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ContentLoader_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		80F935F214C7E1D4207A07B86240E5D8 /* ContentLoader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ContentLoader-dummy.m"; sourceTree = "<group>"; };
 		87540F61D67F874023A46FBB884045FC /* CALayer+Tools.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CALayer+Tools.swift"; sourceTree = "<group>"; };
-		8CBE5EE4AC00ECE639EEFEAB2F98653A /* ContentLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ContentLoader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8CBE5EE4AC00ECE639EEFEAB2F98653A /* ContentLoader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ContentLoader.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		91E14D4855E4C83207DD5AE33DD150CE /* ContentLoaderFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentLoaderFormat.swift; path = ContentLoader/Classes/ContentLoaderFormat.swift; sourceTree = "<group>"; };
-		91F006AA0638C15DD601170CF4EF9DEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		91F006AA0638C15DD601170CF4EF9DEE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		96F35EFA7A947B8F5BABF993B14492E3 /* Pods-ContentLoader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ContentLoader_Example-umbrella.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1083AD96DCDA001FB9D44083647AC7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1083AD96DCDA001FB9D44083647AC7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A29F16AA2012DD011B7C611153EB5EA9 /* AssociationPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AssociationPolicy.swift; sourceTree = "<group>"; };
 		A89969ACDFF375A862CEB2DE957FAA88 /* CollectionOriginalFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionOriginalFormat.swift; path = ContentLoader/Classes/CollectionOriginalFormat.swift; sourceTree = "<group>"; };
-		AC455504DC5C4F3BFDF5DAA3678A6266 /* ContentLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ContentLoader.framework; path = ContentLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC455504DC5C4F3BFDF5DAA3678A6266 /* ContentLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContentLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8C88093E5964F5F5D1B57994B7BB829 /* TableOriginalFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableOriginalFormat.swift; path = ContentLoader/Classes/TableOriginalFormat.swift; sourceTree = "<group>"; };
 		BB8B2FFCE719F68B95AEAD03099435A6 /* Pods-ContentLoader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ContentLoader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BE40D7E9BA694044529938B42B2ECEAB /* ContentLoaderAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentLoaderAnimation.swift; path = ContentLoader/Classes/ContentLoaderAnimation.swift; sourceTree = "<group>"; };
@@ -313,6 +313,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -440,8 +441,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
