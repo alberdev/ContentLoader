@@ -26,7 +26,7 @@
 
 ## Description
 
-Use `ContentLoader` to display awesome animated placeholder loading to your content. Use your custom views to generate low-contrast blocks, with the same shapes, positions. Make beautiful animations using your own format as Slack, Instagram, or Facebook does. AnimatedField is written in Swift 5 with iOS customizable and easy to use.
+Use `ContentLoader` to display awesome animated placeholder loading to your content. Use your custom views to generate low-contrast blocks, with the same shapes, positions. Make beautiful animations using your own format as Slack, Instagram, or Facebook does. ContentLoader is written in Swift 5 with iOS customizable and easy to use.
 
 - [x] Awesome animations on loading
 - [x] Totally customizable
@@ -63,7 +63,7 @@ In the example you will see some custom content loaders that can be used in your
 
 ### ContentLoader in your View
 
-Select one of your custom view controllers. Choose the views inside this viewcontroller where would like to make `Loadable` and set `isLoadable` view property to `true`. Those views would convert to loadable objects when ContentLoader is loading.  If you are using xibs / storyboards, you can see new editable `Is Loadable` property. 
+Select one of your custom view controllers. Choose the views inside this viewcontroller where would like to make `Loadable` and set `isLoadable` view property to `true`. Those views will convert to loadable objects when ContentLoader is loading.  If you are using xibs / storyboards, you can see new editable `Is Loadable` property. 
 
 <img src="https://github.com/alberdev/ContentLoader/blob/master/Images/screenshot_1.png?raw=true" alt="Screenshot 1" style="margin: auto" />
 
