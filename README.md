@@ -20,6 +20,7 @@
 - [Animation Types](#animationtypes)
     - [Fade](#fade)
     - [Gradient](#gradient)
+- [Apps using ContentLoader](#apps-using-contentloader)
 - [Author](#author)
 - [Contributing](#contributing)
 - [License](#license)
@@ -64,6 +65,7 @@ In the example you will see some custom content loaders that can be used in your
 ### ContentLoader in your View
 
 Select one of your custom view controllers. Choose the views inside this viewcontroller where would like to make `Loadable` and set `isLoadable` view property to `true`. Those views will convert to loadable objects when ContentLoader is loading.  If you are using xibs / storyboards, you can see new editable `Is Loadable` property. 
+
 
 <img src="https://github.com/alberdev/ContentLoader/blob/master/Images/screenshot_1.png?raw=true" alt="Screenshot 1" style="margin: auto" />
 
@@ -158,12 +160,20 @@ ContentLoaderAnimation.gradient(UIColor, UIColor)
 >(Start color, End color)
 
 
+## Apps using ContentLoader
+
+If you use `ContentLoader` I'd love to hear about it and feature your app here!
+
+<img src="Images/Apps/fashtime.png" width="50" height="50" valign="middle"> [FashTime](https://itunes.apple.com/app/fashtime-the-new-way/id1126538070?mt=8)
+
 ## Author
 
 Alberto Aznar, info@alberdev.com
 Based on [Skeleton View](https://github.com/Juanpe/SkeletonView) by Juanpe Catalán.
 
 ## Contributing
+
+Feel free to collaborate with ideas 💭, issues ⁉️ and/or pull requests 🔃.
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
