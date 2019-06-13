@@ -39,9 +39,12 @@ public extension UICollectionView {
         set { ao_setOptional(newValue, pkey: &CollectionAssociatedKeys.collectionOriginalFormat) }
     }
     
-    func hideLoadingCells() {
+    func hideLoadingViews() {
         for cell in self.visibleCells {
             cell.hideLoading()
+        }
+        for header in self.visibleSupplementaryViews(ofKind: UICollectionView.elementKindSectionHeader) {
+            header.hideLoading()
         }
     }
 }

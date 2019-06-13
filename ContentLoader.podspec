@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.name              = 'ContentLoader'
   s.summary           = 'Create an animated placeholder loading to your content like Slack, Instagram, or even Facebook.'
   s.description       = 'Use ContentLoader to display awesome animated placeholder loading to your content. Use your custom views to generate low-contrast blocks, with the same shapes, positions. Make beautiful animations using your own format as Slack, Instagram, or Facebook does.'
-  s.version           = '1.0.4'
+  s.version           = '1.0.5'
   
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   

@@ -9,6 +9,7 @@ public protocol ContentLoaderDataSource: class {
     func numSections(in contentLoaderView: UIView) -> Int
     func contentLoaderView(_ contentLoaderView: UIView, numberOfItemsInSection section: Int) -> Int
     func contentLoaderView(_ contentLoaderView: UIView, cellIdentifierForItemAt indexPath: IndexPath) -> String
+    func contentLoaderView(_ contentLoaderView: UIView, headerIdentifierForItemAt indexPath: IndexPath) -> String
 }
 
 public extension ContentLoaderDataSource {
@@ -27,5 +28,10 @@ public extension ContentLoaderDataSource {
 //            return collectionView.estimatedNumberOfRows
 //        }
         return 10
+    }
+    
+    func contentLoaderView(_ contentLoaderView: UIView, headerIdentifierForItemAt indexPath: IndexPath) -> String {
+        // Optional
+        return ""
     }
 }

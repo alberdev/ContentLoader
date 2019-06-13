@@ -34,8 +34,24 @@ public extension UIView {
             cornerRadius = cornerRadius == 0 ? loadingFormat.radius : cornerRadius
             clipsToBounds = cornerRadius != 0
             
-            if loading { layer.playAnimation(loadingFormat.animation) }
-            else { layer.stopAnimation() }
+            if loading {
+                layer.playAnimation(loadingFormat.animation)
+                for view in self.getAllSubviews() { view.isHidden = true }
+            } else {
+                layer.stopAnimation()
+                for view in self.getAllSubviews() { view.isHidden = false }
+            }
+        }
+        
+        // Get all UICollectionView
+        for view in self.getAllSubviews() as [UICollectionView] {
+            if view.isLoadable {
+                if loading {
+                    view.startLoading(format: format)
+                } else {
+                    view.hideLoading()
+                }
+            }
         }
         
         // Get all UIImageView

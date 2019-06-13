@@ -76,7 +76,7 @@ extension ContentLoader {
         tableView?.reloadData()
         
         // Collection option
-        collectionView?.hideLoadingCells()
+        collectionView?.hideLoadingViews()
         collectionView?.contentLoaderDataSource = nil
         collectionView?.dataSource = originalCollectionDataSource
         collectionView?.isUserInteractionEnabled = collectionView?.originalFormat.userInteractionEnabled ?? true
@@ -119,5 +119,12 @@ extension ContentLoader: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath)
         cell.startLoading(format: format)
         return cell
+    }
+    
+    public func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
+        let headerIdentifier = contentLoaderDataSource?.contentLoaderView(collectionView, headerIdentifierForItemAt: indexPath) ?? ""
+        let headerView = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: headerIdentifier, for: indexPath)
+        headerView.startLoading(format: format)
+        return headerView
     }
 }
