@@ -1,5 +1,5 @@
 PODS:
-  - ContentLoader (1.1.0)
+  - ContentLoader (1.1.1)
 
 DEPENDENCIES:
   - ContentLoader (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ContentLoader: 2ed7798c36f5a7d4fe54a347fa39ace4b8141942
+  ContentLoader: b14db4449065be0fd2b8c77b65ff5e4a0a8c7f86
 
 PODFILE CHECKSUM: 8db673c64e49f01886800eeaf57b2dec91391acd
 
-COCOAPODS: 1.7.0.beta.3
+COCOAPODS: 1.8.1

@@ -13,8 +13,10 @@ enum ViewAssociatedKeys {
     // To save values
     static var backgroundColor = "backgroundColor"
     static var cornerRadius = "cornerRadius"
+    static var borderColor = "borderColor"
     static var clipToBounds = "clipToBounds"
     static var textColor = "textColor"
+    static var image = "image"
 }
 
 public extension UIView {
@@ -104,10 +106,14 @@ public extension UIView {
             if view.isLoadable {
                 if loading {
                     view.backgroundColor_ = view.backgroundColor
+                    view.borderColor_ = view.borderColor
+                    view.image_ = view.image(for: .normal)
                     view.textColor_ = view.titleColor(for: .normal)
                 }
                 view.backgroundColor = loading ? loadingFormat.color : view.backgroundColor_
+                view.borderColor = loading ? .clear : view.borderColor_
                 view.setTitleColor(loading ? .clear : view.textColor_, for: .normal)
+                view.setImage(loading ? nil : view.image_, for: .normal)
                 
                 if loading { view.layer.playAnimation(loadingFormat.animation) }
                 else { view.layer.stopAnimation() }
@@ -165,6 +171,11 @@ public extension UIView {
         set { ao_setOptional(newValue ?? 0, pkey: &ViewAssociatedKeys.cornerRadius) }
     }
     
+    fileprivate var borderColor_: UIColor! {
+        get { return ao_get(pkey: &ViewAssociatedKeys.borderColor) as? UIColor ?? .clear }
+        set { ao_setOptional(newValue ?? .clear, pkey: &ViewAssociatedKeys.borderColor) }
+    }
+    
     fileprivate var clipToBounds_: Bool! {
         get { return ao_get(pkey: &ViewAssociatedKeys.clipToBounds) as? Bool ?? false }
         set { ao_setOptional(newValue ?? false, pkey: &ViewAssociatedKeys.clipToBounds) }
@@ -173,5 +184,10 @@ public extension UIView {
     fileprivate var textColor_: UIColor? {
         get { return ao_get(pkey: &ViewAssociatedKeys.textColor) as? UIColor }
         set { ao_setOptional(newValue, pkey: &ViewAssociatedKeys.textColor) }
+    }
+    
+    fileprivate var image_: UIImage? {
+        get { return ao_get(pkey: &ViewAssociatedKeys.image) as? UIImage }
+        set { ao_setOptional(newValue, pkey: &ViewAssociatedKeys.image) }
     }
 }
