@@ -1,11 +1,56 @@
-![ContentLoader logo](https://raw.githubusercontent.com/alberdev/ContentLoader/master/Images/header_ContentLoader.png)
+
+<p align="center">
+   <img width="500" src="https://raw.githubusercontent.com/alberdev/ContentLoader/master/Images/header_ContentLoader.png" alt="ContentLoader  Logo">
+</p>
+
+<p align="center">
+   <a href="https://cocoapods.org/pods/ContentLoader">
+      <img src="https://img.shields.io/cocoapods/v/ContentLoader.svg?style=flat&colorB=fbb03b" alt="Version">
+   </a>
+   <!--
+   <a href="https://github.com/Carthage/Carthage">
+      <img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat" alt="Carthage Compatible">
+   </a>
+   -->
+   <a href="https://cocoapods.org/pods/ContentLoader">
+      <img src="https://img.shields.io/cocoapods/l/ContentLoader.svg?style=flat)" alt="License">
+   </a>
+   <a href="https://developer.apple.com/swift/">
+      <img src="https://img.shields.io/badge/Swift-5.0-blue.svg?style=flat&colorB=fbb03b" alt="Swift 5.0">
+   </a>
+   <a href="https://cocoapods.org/pods/ContentLoader">
+      <img src="https://img.shields.io/cocoapods/p/ContentLoader.svg?style=flat&colorB=fbb03b" alt="Platform">
+   </a>
+   <!--
+   <a href="https://alberdev.github.io/ContentLoader">
+      <img src="https://github.com/alberdev/ContentLoader/blob/gh-pages/badge.svg" alt="Documentation">
+   </a>
+   -->
+   <a href="https://twitter.com/alberdev/">
+      <img src="https://img.shields.io/badge/Twitter-@alberdev-blue.svg?style=flat&colorB=fbb03b" alt="Twitter">
+   </a>
+   
+</p>
+
+<br/>
+
+<p align="center">
+   Display awesome animated placeholder loading to your content. Use your custom views to generate low-contrast blocks, with the same shapes, positions. Make beautiful animations using your own format as Slack, Instagram, or Facebook does. <b>ContentLoader</b> is written in Swift 5 with iOS customizable and easy to use.
+</p>
+
+<br/>
+
+<p align="center" >
+<img src="https://raw.githubusercontent.com/alberdev/ContentLoader/master/Images/video.gif" alt="ContentLoader" title="ContentLoader demo">
+</p>
 
 # ContentLoader
 
-[![Version](https://img.shields.io/cocoapods/v/ContentLoader.svg?style=flat&colorB=008B60)](https://cocoapods.org/pods/ContentLoader)
-[![License](https://img.shields.io/cocoapods/l/ContentLoader.svg?style=flat)](https://cocoapods.org/pods/ContentLoader)
-[![Platform](https://img.shields.io/cocoapods/p/ContentLoader.svg?style=flat)](https://cocoapods.org/pods/ContentLoader)
-![Swift](https://img.shields.io/badge/%20in-swift%205.0-orange.svg?style=flat&colorB=008B60)
+- [x] Awesome animations on loading
+- [x] Totally customizable
+- [x] Use it also in your own tables and collection views
+- [x] Easy usage
+- [x] Supports iOS, developed in Swift 5
 
 ## Table of Contents
 
@@ -25,23 +70,6 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## Description
-
-Use `ContentLoader` to display awesome animated placeholder loading to your content. Use your custom views to generate low-contrast blocks, with the same shapes, positions. Make beautiful animations using your own format as Slack, Instagram, or Facebook does. ContentLoader is written in Swift 5 with iOS customizable and easy to use.
-
-- [x] Awesome animations on loading
-- [x] Totally customizable
-- [x] Use it also in your own tables and collection views
-- [x] Easy usage
-- [x] Supports iOS, developed in Swift 5
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-<p align="center" >
-<img src="https://raw.githubusercontent.com/alberdev/ContentLoader/master/Images/video.gif" alt="ContentLoader" title="ContentLoader demo">
-</p>
 
 ## Installation
 
